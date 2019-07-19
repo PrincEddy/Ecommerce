@@ -1,0 +1,146 @@
+html, body {
+  margin: 0;
+  background-color: #2F3542;
+}
+
+/* *************Navigation Bar******************* */
+header {
+  background-color: #FF4757;
+  margin: 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.container-nav {
+  display: flex;
+  margin: 0;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.875rem;
+  font-family: serif;
+  margin-left: 10px;
+  margin-right: 100px;
+
+}
+a{
+text-decoration: none;
+}
+
+.search-bar {
+  margin: 30px auto;
+  display: flex;
+  background-color: #fff;
+  height: 50px;
+}
+
+.search-bar input[type=text] {
+  width: 300px;
+  text-align: left;
+  font-size: 1.875rem;
+  border: 0;
+}
+
+.search-bar button {
+  background-color: #2F3542;
+  height: 50px;
+  border: 0;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 20px 0;
+}
+
+li {
+  padding: 20px;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.375rem;
+}
+
+.right-list {
+  margin-left: auto;
+}
+
+/* *************  Cover ******************* */
+.cover-container {
+  display: flex;
+  margin: 0;
+  height: 80%;
+  margin-bottom: 10px;
+}
+
+.cover-container a img {
+  height: 805px;
+  width: 100%;
+margin-bottom: 40px;
+}
+
+
+/* *************  prouducts  ******************* */
+
+.container {
+  margin: 0 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 0;
+  }
+}
+
+.products-grid-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+
+}
+
+.product-div {
+  background-color: #ECF0F1;
+  border-radius: 10%;
+  max-width: 217px;
+}
+ .product-div img {
+   width: 100%;
+   height: 260px;
+ }
+
+ .product-div h2, .product-div h3{
+   text-align: center;
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+
+.product-icons {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+.img-icon h4 {
+  margin: 0;
+}
+.img-icon img {
+  height: 30px;
+  width: 30px;
+}
+
+.love-icon {
+  margin-left: 20px;
+  text-align: center;
+}
+
+.cart-icon {
+  margin: 0 auto;
+}
+.star-icon {
+  margin-right: 20px;
+  text-align: center;
+}
